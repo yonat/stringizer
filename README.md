@@ -1,11 +1,11 @@
 **basic_stringizer** - functor that turns an object into a basic_string  
 **stringize** - function that turn an object into a string
 
-Example: creating a string from an int:
+Creating a string from an int:
 
 	std::string s = "The answer is " + stringize(42);
 	
-Example: transforming a vector of doubles to a vector of strings:
+Transforming a vector of doubles to a vector of strings:
 
 	std::vector<double> vf;
 	std::vector<std::string> vs;
